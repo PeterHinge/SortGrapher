@@ -73,10 +73,6 @@ class CanvasArray {
     this.displayArray(cleared);
   }
 
-  heapSort() {}
-
-  mergeSort() {}
-
   async selectionSort() {
     for (let i = 0; i < this.size - 1; i++) {
       let small = this.array[i];
@@ -100,5 +96,4 @@ class CanvasArray {
     this.displayArray(cleared);
   }
 
-  quickSort() {}
 }

@@ -12,15 +12,9 @@ function sort() {
 
   if (algorithm == "bubbleSort") {
     canvasarray.bubbleSort();
-  } else if (algorithm == "heapSort") {
-    canvasarray.heapSort();
-  } else if (algorithm == "mergeSort") {
-    canvasarray.mergeSort();
   } else if (algorithm == "selectionSort") {
     canvasarray.selectionSort();
-  } else if (algorithm == "quickSort") {
-    canvasarray.quickSort();
-  }
+  } 
 }
 
 //Main Program
