@@ -12,6 +12,12 @@ function sort() {
 
   if (algorithm == "bubbleSort") {
     canvasarray.bubbleSort();
+  } else if (algorithm == "heapSort") {
+    canvasarray.heapSort();
+  } else if (algorithm == "insertionSort") {
+    canvasarray.insertionSort();
+  } else if (algorithm == "mergeSort") {
+    canvasarray.mergeSort();
   } else if (algorithm == "selectionSort") {
     canvasarray.selectionSort();
   } 
