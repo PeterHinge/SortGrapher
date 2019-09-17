@@ -20,7 +20,7 @@ function sort() {
     canvasarray.mergeSort();
   } else if (algorithm == "selectionSort") {
     canvasarray.selectionSort();
-  } 
+  }
 }
 
 //Main Program
